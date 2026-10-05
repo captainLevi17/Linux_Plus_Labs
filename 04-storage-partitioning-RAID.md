@@ -124,6 +124,8 @@ which hello
 
 2. Execute the compiled binary:
 
+hello or /usr/local/bin/hello
+
 *Expected Output:* `Hello, world!`
 
 ### Step 5: Clean Up and Uninstall (Optional)
@@ -133,6 +135,10 @@ which hello
 sudo make uninstall
 
 2. Verify it has been removed:
+
+which hello
+
+*Expected Output:* Nothing should be displayed
 
 
 ```
